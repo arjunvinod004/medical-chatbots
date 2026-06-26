@@ -1,0 +1,93 @@
+        body{
+    background: linear-gradient(135deg,#0d6efd,#6f42c1);
+    min-height:100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.chat-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.chat-header{
+    background:linear-gradient(135deg,#0d6efd,#6610f2);
+    color:white;
+    padding:20px;
+}
+
+.chat-header h4{
+    margin:0;
+    font-weight:600;
+}
+
+.card-body{
+    background:white;
+    padding:30px;
+}
+
+.form-control{
+    border-radius:12px;
+    padding:12px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#0d6efd;
+}
+
+.btn-analyze{
+    border-radius:12px;
+    padding:10px 25px;
+    font-weight:600;
+}
+
+.result-card{
+    background:#fff;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.result-section{
+    margin-bottom:20px;
+}
+
+.result-section h5{
+    color:#000;
+    font-weight:bold;
+}
+
+.result-section ul{
+    padding-left:20px;
+}
+
+.loading{
+    display:none;
+    text-align:center;
+    margin-top:20px;
+}
+
+.loading .spinner-border{
+    width:3rem;
+    height:3rem;
+}
+
+.disclaimer{
+    border-left:5px solid orange;
+    background:#fff8e6;
+    padding:15px;
+    border-radius:10px;
+}
+
+@media(max-width:768px){
+
+    .card-body{
+        padding:20px;
+    }
+
+    .chat-header h4{
+        font-size:20px;
+    }
+}
